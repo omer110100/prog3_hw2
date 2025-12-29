@@ -1,0 +1,27 @@
+// Create the main character with initial stats
+create warrior Thorin
+
+// Define the rooms of the dungeon
+Create Room Entrance
+Create Room Hallway
+Create Room TreasureRoom
+
+// Set the starting point of the dungeon exploration
+Set StartRoom Entrance
+
+// Establish connections between rooms to enable navigation
+Connect Entrance Hallway North
+Connect Hallway TreasureRoom East
+
+// Place items and monsters in specific rooms
+Place Item Sword Entrance 0 5 0 // Sword in Entrance, +5 Strength (total sword becomes 10 STR, 10 DEF)
+Place Monster Goblin Hallway 30 5 2 // Goblin in Hallway, 30 Health, 5 Strength, 2 Defense
+Place Item Shield TreasureRoom 0 0 5 // Shield in TreasureRoom, +5 Defense (total shield becomes 10 DEF)
+
+// Character actions: entering the dungeon, moving, fighting, and picking up items
+Enter Dungeon Thorin // Thorin starts his adventure
+Move Thorin North // Thorin moves to the Hallway
+Fight Thorin Goblin // Thorin fights the Goblin in the Hallway
+PickUp Thorin Sword // Thorin picks up the Sword
+Move Thorin East // Thorin moves to the TreasureRoom
+PickUp Thorin Shield // Thorin picks up the Shield

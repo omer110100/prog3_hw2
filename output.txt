@@ -1,0 +1,13 @@
+Thorin enters the dungeon.
+Thorin moves North to Hallway.
+Thorin fights Goblin: Victory
+Thorin tries to pick up Sword: Failed (item not in room).
+Thorin moves East to TreasureRoom.
+Thorin picks up Shield.
+
+Thorin's Final Stats:
+Health: 90
+Strength: 15
+Defense: 15
+Inventory: Shield
+
